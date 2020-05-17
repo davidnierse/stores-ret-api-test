@@ -18,7 +18,7 @@ def authenticate(username, password):
 def identity(payload):
     '''
     Function that gets called when user has already authenticated, and Flask-JWT token
-    verfied their authorization header is correct.
+    verified their authorization header is correct.
     :param payload: A dictionary with 'identity' key, which is user's id
     :return: A UserModel object
     '''
